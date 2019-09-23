@@ -1,0 +1,550 @@
+@font-face {
+    font-family: 'Mediator Narrow';
+    src: url('../fonts/Mediator_Narrow.otf');
+}
+
+@font-face {
+    font-family: 'Mediator Regular';
+    src: url('../fonts/Mediator-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mediator Black';
+    src: url('../fonts/Mediator-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Mediator Bold';
+    src: url('../fonts/Mediator-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mediator Light';
+    src: url('../fonts/Mediator-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media all and (max-width: 1200px) {
+    .card__img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .nav .nav-item:last-child {
+        margin-left: 0;
+    }
+
+	.chose__title__sub {
+		margin-left: 40px !important;
+	}
+    .chose__content__title {
+        font-size: 50px !important;
+    }
+
+    .chose__title__sub {
+        margin-left: 0 !important;
+    }
+	.footer__links__icon .logo{
+		display: none;
+	}
+	.section__title__sub{
+		margin-left: 0 !important;
+	}
+	.section__title__pre{
+		font-size: 30px !important;
+	}
+	.footer__social{
+		margin-bottom: 20px;
+	}
+	.info__content__title{
+		font-size: 50px !important;
+	}
+	.footer__contact__phone h6, .footer__contact__mail h6{
+		font-size: 10px;
+	}
+	.footer__copyright{
+		font-size: 10px !important;
+	}
+	section#catalog, section#best{
+		padding: 0 10px !important;
+	}
+}
+
+
+body {
+    background: #f5f5f5;
+}
+
+body, .col, .row, .card-body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.blue-color {
+    color: #0231ff;
+}
+
+section {
+    padding: 0 50px;
+}
+
+.section__title {
+    margin-bottom: 75px;
+}
+
+.section__title__pre {
+    font-family: "Mediator Black";
+    font-size: 62px;
+}
+
+.section__title__pre::first-letter {
+    margin-left: -3px;
+}
+
+.section__title__sub {
+    font-family: "Mediator Bold";
+    font-size: 22px;
+}
+
+
+/*buttons*/
+
+.btn {
+    font-family: "Mediator Regular";
+    font-size: 16px;
+    border-color: #0231ff;
+    background: #0231ff;
+    min-width: 210px;
+    border-radius: 2px;
+}
+
+#header .btn:hover {
+    background: white;
+    border-color: #0231ff;
+    color: #0231ff;
+}
+
+#info .btn:hover {
+    background: #f5f5f5;
+    border-color: #0231ff;
+    color: #0231ff;
+}
+
+.w-btn {
+    min-width: 290px;
+    box-shadow: 0 20px 30px #b5b5b5;
+    transition: 0.3s;
+}
+
+.w-btn:hover {
+    background: #f5f5f5;
+    border-color: #0231ff;
+    color: #0231ff;
+}
+
+.btn-white {
+    color: black;
+    border-color: white;
+    background: white;
+    box-shadow: none;
+    transition: 0.3s;
+}
+
+.btn-white:hover {
+    background: #0231ff;
+    color: white;
+    border-color: white;
+}
+
+
+.bg-main {
+    padding-top: 25px;
+    background-image: url("../img/bg-main.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: auto 1012px;
+}
+
+.bg-chose {
+    padding-top: 114px;
+    background-image: url("../img/bg-chose.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: auto 779px;
+}
+
+
+.navbar {
+    min-height: 70px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0 25px;
+    font-family: "Mediator Regular";
+    font-size: 16px;
+    box-shadow: 0 5px 16px gray;
+    z-index: 1;
+}
+.nav-link{
+	color: black;
+}
+.nav-link:hover{
+	color: gray;
+}
+
+.nav-item:last-child {
+    margin-left: 50px;
+}
+
+.logo {
+    height: 30px;
+}
+
+#info {
+    margin-top: 252px;
+    padding-bottom: 60px;
+}
+
+#catalog {
+    margin-bottom: 75px;
+}
+
+#best {
+    margin-bottom: 43px;
+}
+
+#catalog, #best {
+    background-image: url("../img/bg-card.png");
+    background-repeat: no-repeat;
+    background-position: 0 -70px;
+    background-size: auto 771px;
+}
+
+#chose {
+    color: white;
+    margin-bottom: 70px;
+}
+
+.catalog__button__box, .best__button__box {
+    text-align: center;
+}
+
+.chose__button__box {
+    margin-bottom: 110px;
+    text-align: center;
+}
+
+.info__title {
+    margin-bottom: 60px;
+}
+
+.chose__title {
+    margin-bottom: 29px;
+}
+
+
+.info__content__title{
+    font-family: "Mediator Black";
+    font-size: 122px;
+    margin-bottom: 16px;
+}
+.chose__content__title{
+	font-family: "Mediator Black";
+	font-size: 122px;
+}
+
+.info__content__title::first-letter {
+    margin-left: -8px;
+}
+
+.chose__content__title::first-letter {
+    margin-left: -6.6px;
+}
+
+.info__content__lozung {
+    line-height: 1;
+    margin-left: 163px;
+    margin-bottom: 29px;
+}
+
+.info-list__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.info-list__item:hover .info-list__icon {
+    box-shadow: 0 10px 30px lightgray;
+}
+
+.info-list__item:last-child {
+    margin-bottom: 0;
+}
+
+.info-list__lozung {
+    font-family: "Mediator Light";
+    font-size: 16px;
+    margin-left: 50px;
+}
+
+.info-list__icon {
+    min-width: 80px;
+    min-height: 80px;
+    background: white;
+    box-shadow: 0 10px 20px lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #0231ff;
+    transition: 0.5s;
+}
+
+.info-list__box {
+    padding-left: 0;
+}
+
+.info-list {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.catalog__title__sub {
+    margin-left: 168px;
+}
+
+.news__title__sub {
+    margin-left: 183px;
+}
+
+.best__title__sub {
+    margin-left: 183px;
+}
+
+.chose__title__sub {
+    margin-left: 286px;
+}
+
+.minor__section__title__mb {
+    margin-bottom: 75px;
+}
+
+/*card*/
+
+.card {
+    height: 100%;
+    box-shadow: 0 20px 30px #b5b5b5;
+}
+
+.card-mb {
+    margin-bottom: 62px;
+}
+
+.card__icon {
+    font-size: 24px;
+    margin-right: 28px;
+    color: #0231ff;
+}
+
+.card__img {
+    min-height: 130px;
+}
+
+.card__info__text span {
+    color: #0231ff;
+}
+
+.card__info__text .card-text {
+    font-family: "Mediator Regular";
+    font-size: 14px;
+    margin: 0;
+}
+
+.card__info__content {
+    align-items: center;
+    margin-bottom: 19px;
+}
+
+.card__info {
+    margin: 19px 28px 27px;
+}
+
+.card__btn {
+    font-size: 14px;
+    min-width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 18px;
+    transition: 0.5s;
+}
+
+.card__btn:hover {
+    letter-spacing: 1px;
+}
+
+.card__title {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.card__title__content {
+    font-family: "Mediator Regular";
+    font-size: 14px;
+    align-items: center;
+    height: 84px;
+}
+
+/*section news*/
+
+section#news {
+    overflow: hidden;
+    margin-bottom: 37px;
+}
+
+.news__main, .news__minor {
+    padding: 0;
+}
+
+.news__main .btn {
+    margin-bottom: 38px;
+}
+
+.news__main h3 {
+    font-family: "Mediator Bold";
+    font-size: 24px;
+    margin-bottom: 7px;
+}
+
+.news__text {
+    font-family: "Mediator Light";
+    font-size: 14px;
+    margin-bottom: 38px;
+}
+
+.news__minor h3 {
+    font-family: "Mediator Bold";
+    font-size: 24px;
+    margin-bottom: 7px;
+}
+
+.news__minor p {
+    font-family: "Mediator Light";
+    font-size: 14px;
+}
+
+.news__minor a {
+    font-family: "Mediator Light";
+    font-size: 14px;
+}
+
+.news__minor hr {
+    border: 0;
+    height: 1px;
+    width: 1000px;
+    background: gray;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.news__date {
+    font-size: 12px !important;
+    margin-bottom: 7px;
+}
+
+/*section footer*/
+
+section#footer {
+    padding: 0;
+}
+
+.footer .container-fluid {
+    margin-bottom: 0;
+}
+
+.footer__links {
+    padding-bottom: 50px;
+}
+
+.footer__links__icon {
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.footer__links__column h6 {
+    font-family: "Mediator Bold";
+    color: #0231ff;
+    margin-bottom: 26px;
+}
+
+.footer__links__column p {
+    margin-bottom: 13px;
+    line-height: 1;
+}
+
+.footer__links__column a {
+    font-family: "Mediator Regular";
+    color: black;
+}
+
+.footer__social {
+    justify-content: space-between;
+}
+
+.footer__contact {
+    height: 90px;
+    align-items: center;
+}
+
+.footer__contact__phone i, .footer__contact__mail i {
+    margin-right: 9px;
+    font-size: 20px;
+}
+
+.footer__contact__phone, .footer__contact__mail {
+    font-family: "Mediator Black";
+    align-items: baseline;
+}
+
+.footer__contact__phone {
+    margin-right: 60px;
+}
+
+.footer__social__icon {
+    padding: 0;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.footer__social__icon:hover {
+    color: orange;
+}
+
+.footer__social__icon:last-child {
+    padding-right: 50px;
+    margin-right: 0;
+}
+
+.footer__copyright {
+    font-family: "Mediator Light";
+    font-size: 14px;
+    height: 46px;
+    color: white;
+    padding-left: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background: #0231ff
+}
+
+.footer__copyright__logo {
+    padding-right: 50px;
+}
